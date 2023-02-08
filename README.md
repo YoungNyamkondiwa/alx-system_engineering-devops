@@ -1,1 +1,2 @@
-0. Where am I?
+SHELL COMMAND BASICS
+
