@@ -15,3 +15,4 @@
 "cp -u *html .." script that copies all the HTML files from the current working directory to the parent
 "mv /[A-Z]* /tmp/u" move upper or mv [[:upper:]]* /tmp/u
 "rm *~"a script that deletes all files in the current working directory that end with the character 
+"mkdir -p /welcome/to/school" script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
