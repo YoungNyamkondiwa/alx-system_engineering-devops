@@ -13,3 +13,4 @@
 "file /tmp/iamafile "script that prints the type of the file named iamafile
 "ln -s /bin/ls __ls__ " A symbolic link to /bin/ls, named __ls__
 "cp -u *html .." script that copies all the HTML files from the current working directory to the parent
+"mv /[A-Z]* /tmp/u" move upper or mv [[:upper:]]* /tmp/u
