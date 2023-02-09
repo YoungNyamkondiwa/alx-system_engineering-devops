@@ -16,3 +16,4 @@ This is a repo for all shell permissions
 13. 13. Change group "chgrp school hello"  a script that changes the group owner to school for the file hello.
 14. 14. Owner and group " chown vincent:staff *"  script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 15. 15. Symbolic links  "chown -h vincent:staff _hello"   script that changes the owner and the group owner of _hello to vincent and staff respectively.
+16. 16. If only   "chown --from=guillaume betty hello"   script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
