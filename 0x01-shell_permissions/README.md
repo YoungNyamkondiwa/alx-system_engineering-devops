@@ -14,3 +14,4 @@ This is a repo for all shell permissions
 11. 11. Directories  "sudo chmod -R +111 */" script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 12. 12. More directories  "mkdir -m 751 my_dir"   script that creates a directory called my_dir with permissions 751 in the working directory.
 13. 13. Change group "chgrp school hello"  a script that changes the group owner to school for the file hello.
+14. 14. Owner and group " chown vincent:staff *"  script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
