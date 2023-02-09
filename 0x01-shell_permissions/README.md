@@ -12,3 +12,4 @@ This is a repo for all shell permissions
 9. 9. John Doe "chmod 753 hello"  script that sets the mode of the file hello to this: -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello.
 10. 10. Look in the mirror    "chmod --reference=olleh hello"   script that sets the mode of the file hello the same as olleh’s mode.
 11. 11. Directories  "sudo chmod -R +111 */" script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+12. 12. More directories  "mkdir -m 751 my_dir"   script that creates a directory called my_dir with permissions 751 in the working directory.
