@@ -15,3 +15,4 @@ This is a repo for all shell permissions
 12. 12. More directories  "mkdir -m 751 my_dir"   script that creates a directory called my_dir with permissions 751 in the working directory.
 13. 13. Change group "chgrp school hello"  a script that changes the group owner to school for the file hello.
 14. 14. Owner and group " chown vincent:staff *"  script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+15. 15. Symbolic links  "chown -h vincent:staff _hello"   script that changes the owner and the group owner of _hello to vincent and staff respectively.
