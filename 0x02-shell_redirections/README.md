@@ -22,3 +22,4 @@
 20. Without C, you would live in hiago tr -d Cc script that removes all letters c and C from input.
 21. esreveR   rev  script that reverse its input.
 22. DJ Cut Killer        cut -d":" --fields=1,6 /etc/passwd | sort script that displays all users and their home directories, sorted by users.
+25. Acrostic echo -ne $(cut -c-1 | tr -d '\n')'\n'     script that decodes acrostics that use the first letter of each line.
