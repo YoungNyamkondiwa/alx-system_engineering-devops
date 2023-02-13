@@ -19,3 +19,4 @@
 17. I hate bins grep -v -i "bin" Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 18. Letters only please 18. Display all lines of the file /etc/ssh/sshd_config starting with a letter.
 19. A to Z Replace all characters A and c from input to Z and e respectively. tr 'Ac' 'Ze'
+20. Without C, you would live in hiago tr -d Cc script that removes all letters c and C from input.
