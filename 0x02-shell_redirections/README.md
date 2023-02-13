@@ -11,3 +11,4 @@
 9. Duplicate last line    tail -n 1 iacta | cat >> iacta  script that duplicates the last line of the file iacta
 10. No more javascript script that deletes all the regular files (not the directories) with a .js
 11. Don't just count your directories, make your directories count find . -mindepth 1 -type d | wc -l  script that counts the number of directories and sub-directories in the current directory.
+12. What’s new  ls -t | head script that displays the 10 newest files in the current directory.
