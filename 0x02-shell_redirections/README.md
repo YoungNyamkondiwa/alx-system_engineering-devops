@@ -21,3 +21,4 @@
 19. A to Z Replace all characters A and c from input to Z and e respectively. tr 'Ac' 'Ze'
 20. Without C, you would live in hiago tr -d Cc script that removes all letters c and C from input.
 21. esreveR   rev  script that reverse its input.
+22. DJ Cut Killer        cut -d":" --fields=1,6 /etc/passwd | sort script that displays all users and their home directories, sorted by users.
