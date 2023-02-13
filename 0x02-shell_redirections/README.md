@@ -7,4 +7,5 @@
 5. I'd prefer the first ones actually head /etc/passwd Display the first 10 lines of /etc/passwd.                                     
 6. Line #2   head -n 3 iacta | tail -n 1   a script that displays the third line of the file iacta.                                   
 7. It is a good file that cuts iron without making a noise \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)                                     
-8. Save current state of directory  ls -la > ls_cwd_content Putting contents into the file.      
+8. Save current state of directory  ls -la > ls_cwd_content Putting contents into the file. 
+9. Duplicate last line    tail -n 1 iacta | cat >> iacta  script that duplicates the last line of the file iacta
