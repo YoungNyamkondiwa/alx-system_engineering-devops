@@ -9,3 +9,4 @@
 7. It is a good file that cuts iron without making a noise \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)                                     
 8. Save current state of directory  ls -la > ls_cwd_content Putting contents into the file. 
 9. Duplicate last line    tail -n 1 iacta | cat >> iacta  script that duplicates the last line of the file iacta
+10. No more javascript script that deletes all the regular files (not the directories) with a .js
