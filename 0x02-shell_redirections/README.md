@@ -22,5 +22,6 @@
 20. Without C, you would live in hiago tr -d Cc script that removes all letters c and C from input.
 21. esreveR   rev  script that reverse its input.
 22. DJ Cut Killer        cut -d":" --fields=1,6 /etc/passwd | sort script that displays all users and their home directories, sorted by users.
+23. Empty casks make the most noise   a command that finds all empty files and directories in the current directory and all sub-directories.
 25. Acrostic echo -ne $(cut -c-1 | tr -d '\n')'\n'     script that decodes acrostics that use the first letter of each line.
 26. The biggest fan   tail -n +2 | cut -f1 | sort | uniq -c | sort -nr -k 1,1 | cut -c 9- | head -11   script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
