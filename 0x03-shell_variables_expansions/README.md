@@ -7,3 +7,4 @@
 6. Local variable   script that creates a new local variable. BEST=School.
 7. Global variable  script that creates a new global variable.    export BEST=School.
 8. Every addition to true knowledge is an addition to human power   script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.             echo $(($TRUEKNOWLEDGE+128))
+9. Divide and rule    script that prints the result of POWER divided by DIVIDE, followed by a new line.  POWER and DIVIDE are environment variables    echo $(($POWER/$DIVIDE))
