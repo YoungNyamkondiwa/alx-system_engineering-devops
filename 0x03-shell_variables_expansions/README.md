@@ -4,4 +4,5 @@
 3. If the path be beautiful, let us not ask where it leads. script that counts the number of directories in the PATH.        echo $PATH | tr ":" "\n" | wc -l.
 4. Global variables  script that lists environment variables.    printenv.
 5. Local variables  script that lists all local variables and environment variables, and functions.      set.
-6. Local variable   script that creates a new local variable. BEST=School
+6. Local variable   script that creates a new local variable. BEST=School.
+7. Global variable  script that creates a new global variable.    export BEST=School.
